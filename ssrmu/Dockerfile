@@ -1,18 +1,18 @@
 FROM alpine:3.9
 MAINTAINER FAN VINGA<fanalcest@gmail.com>
 
-ENV NODE_ID=5                     \
+ENV NODE_ID=8                     \
     DNS_1=1.0.0.1                 \
     DNS_2=8.8.8.8                 \
     SPEEDTEST=6                   \
-    CLOUDSAFE=0                   \
+    CLOUDSAFE=1                   \
     AUTOEXEC=0                    \
     ANTISSATTACK=0                \
     MU_SUFFIX=microsoft.com       \
     MU_REGEX=%5m%id.%suffix       \
     API_INTERFACE=glzjinmod       \
     WEBAPI_URL=http://www.ssrfree.online   \
-    WEBAPI_TOKEN=glzjin           \
+    WEBAPI_TOKEN=NimaQu           \
     MYSQL_HOST=34.80.22.62        \
     MYSQL_PORT=3306               \
     MYSQL_USER=visense            \
